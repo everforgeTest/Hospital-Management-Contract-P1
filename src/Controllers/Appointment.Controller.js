@@ -4,6 +4,7 @@ class AppointmentController {
   constructor(message) {
     this.message = message || {};
     this.service = new AppointmentService(this.message);
+    //abc
   }
 
   async handleRequest() {
