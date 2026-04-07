@@ -8,7 +8,10 @@ class DoctorService {
     this.message = message || {};
     this.dbPath = settings.dbPath;
     this.dbContext = new SqliteDatabase(this.dbPath);
+    this.dbContext = new SqliteDatabase(this.dbPath);
   }
+
+
 
   async create() {
     const resObj = {};
