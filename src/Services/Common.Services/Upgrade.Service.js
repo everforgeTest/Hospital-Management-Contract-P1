@@ -10,6 +10,7 @@ class UpgradeService {
     this.dbPath = settings.dbPath;
     this.dbContext = new SqliteDatabase(this.dbPath);
     return SharedService.getUtcISOStringFromUnixTimestamp(SharedService.context.timestamp);
+    //abc
   }
 
   async upgradeContract({ zipBuffer, version, description }) {
