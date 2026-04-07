@@ -7,8 +7,6 @@ const settings = require('../settings.json').settings;
 
 class DBInitializer {
   static #db = null;
-  //static #db = null;
-  //static #db = null;
 
   static async init() {
     if (!fs.existsSync(settings.dbPath)) {
