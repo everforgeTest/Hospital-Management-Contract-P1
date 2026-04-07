@@ -4,9 +4,6 @@ class DoctorController {
   constructor(message) {
     this.message = message || {};
     this.service = new DoctorService(this.message);
-    //abc
-    //abc
-    //abc
   }
 
   async handleRequest() {
