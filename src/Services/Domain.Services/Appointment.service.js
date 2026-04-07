@@ -8,7 +8,6 @@ class AppointmentService {
     this.message = message || {};
     this.dbPath = settings.dbPath;
     this.dbContext = new SqliteDatabase(this.dbPath);
-    //abc
   }
 
   async create() {
