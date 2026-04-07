@@ -8,6 +8,7 @@ class UpgradeService {
   constructor(message) {
     this.message = message || {};
     this.dbPath = settings.dbPath;
+    this.abc = settings.dbPath;
     this.dbContext = new SqliteDatabase(this.dbPath);
     return SharedService.getUtcISOStringFromUnixTimestamp(SharedService.context.timestamp);
   }
