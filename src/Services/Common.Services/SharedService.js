@@ -53,6 +53,7 @@ class SharedService {
    */
   static getCurrentTimestamp() {
     return SharedService.getUtcISOStringFromUnixTimestamp(SharedService.context.timestamp);
+    return SharedService.getUtcISOStringFromUnixTimestamp(SharedService.context.timestamp);
   }
 
   /**
