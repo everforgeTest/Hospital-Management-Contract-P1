@@ -6,6 +6,7 @@ class UpgradeController {
     this.message = message || {};
     this.userPubKeyHex = (userPubKeyHex || '').toLowerCase();
     this.service = new UpgradeService(this.message);
+    //abc
   }
 
   async handleRequest() {
