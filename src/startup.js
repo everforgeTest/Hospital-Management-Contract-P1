@@ -67,3 +67,4 @@ const hospitalContract = async (ctx) => {
 
 const hpc = new HotPocket.Contract();
 hpc.init(hospitalContract, HotPocket.clientProtocols.JSON, true);
+//main commit
